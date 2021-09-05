@@ -24,6 +24,16 @@
 
                 <img src="#" class="images" alt="Страница сайта Технокряк" />
             </picture>
+            <div class="list-card_discription">
+                <p>Директор интернет магазина</p>
+                <p class="list-card_name">Норкин Артем Юрьевич</p>
+            </div>
+        </div>
+        <div class="contacts_telephone">
+            <h3 class="contacts__telephone-title">Телефоны</h3>
+            <a href="tel:+380961111111" class="contacts__contact-link">
+          +38 (067) 156 26 38
+        </a>
         </div>
     </section>
 </body>
@@ -48,12 +58,42 @@
     }
     
     .contact_container {
+        margin: 0 auto;
         width: 320px;
         padding-left: 15px;
         padding-right: 15px;
     }
     
-    .list-card__image-wrapper {}
+    .contacts__title {
+        letter-spacing: 1.3rem;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .list-card_discription {
+        font-size: 16px;
+        padding: 15px;
+        line-height: 1.4;
+        text-align: center;
+    }
+    
+    .list-card__image-wrapper {
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        margin-bottom: 30px;
+    }
+    
+    .list-card_name {
+        text-transform: uppercase;
+    }
+    
+    .contacts__telephone-title {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1.3rem;
+        margin-bottom: 20px;
+    }
+    
+    .contacts__contact-link {}
     
     .images {}
 </style>
